@@ -53,7 +53,7 @@ public class Employee {
     }
 
     public static void Main(String[] args) {
-        Employee emp = new Employee(1, "Giang", "Nguyen", 50000);
+        Employee emp = new Employee(1, "Dung", "Nguyen", 5330000);
         emp.display();
     }
 }
