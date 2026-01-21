@@ -46,4 +46,15 @@ public class Circle
     {
         return (this.radius)*(this.radius)*3.14;
     }
+
+    public void display()
+    {
+        System.out.println(this.toString());
+        System.out.println("Area: " + Double.toString(this.GetAreaDouble()));
+    }
+
+    public static void Main(String[] args) {
+        Circle cir = new Circle(2.0, "blue");
+        cir.display();
+    }
 }
