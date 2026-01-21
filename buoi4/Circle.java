@@ -3,7 +3,6 @@ public class Circle
     private double radius = 1.0;
     private String color = "red";
 
-    @Override 
     public String toString()
     {
         return "rad:"+Double.toString(radius) + " col:"+color;
@@ -51,10 +50,5 @@ public class Circle
     {
         System.out.println(this.toString());
         System.out.println("Area: " + Double.toString(this.GetAreaDouble()));
-    }
-
-    public static void Main(String[] args) {
-        Circle cir = new Circle(2.0, "blue");
-        cir.display();
     }
 }
